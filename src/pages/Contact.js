@@ -53,7 +53,7 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-4'>
+                <div className='col-12 col-md-4 d-flex align-items-center'>
                     <div className='map'>
                         <div className='address'>
                             

@@ -21,7 +21,7 @@
 .pabout{
 
     line-height: 1.8em;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: normal;
     padding: 0;
     border: 0;
@@ -40,22 +40,22 @@
     text-align: start;
     padding-left: 30px;
     width: 80%;
-    text-shadow: 1px 1px 2px rgb(235, 141, 157);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .pbox{
+
  padding: 20px;
- border: 2px solid grey;
- border: 1px solid;
+ border-radius: 20px;
+ border: 1px dotted;
  padding: 10px;
  box-shadow: 5px 10px #888888;
 }
 
-.pimg{
-   
+.imgbg{
+  border-radius: 20px;
 }
-
-
 .team {
     position: relative;
     width: 100%;

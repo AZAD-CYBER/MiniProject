@@ -1,4 +1,3 @@
-
 .top-bar {
     position: relative;
     height: 75px;
@@ -123,5 +122,9 @@
   .social a:hover {
     color: #ffffff;
     background: #E81C2E;
+  }
+
+  .c{
+    text-decoration: none;
   }
   

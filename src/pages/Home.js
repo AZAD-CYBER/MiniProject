@@ -12,7 +12,8 @@ import Template from '../components/Template';
 const Home = () => {
   return (
     <>
-      <div className='container-fuild'>
+      <div className='container-fuild sf'>
+      
         <Flip bottom>
           <Getstart title="Grow your startup to unlimited heights" content="Discover the platform that gives you the freedom to create, design, manage and develop your web presence exactly the way you want." />
         </Flip>
@@ -20,13 +21,17 @@ const Home = () => {
 
       <div className='row objective '>
         <div className='col-12 col-md-6  '>
-          <p className='obje'>   1) To serve  for the people who wants to be head in life from ,for creators,for creative people for risk factors,for who wish to be independent.<br></br>
-            2)StartGrow is the paltform who helps the people who want to startup or who had startup either by providing Investor,Advertiser,or web creation.<br></br>
-            3)StartGrow is a platform where people can create thier own website according to thier services for free by choosing the templates or by creating alone. <br></br>
-            4)StartGrow motive is to support startup and grow together to serve for the best,</p>
+          <p className='obje'><ol type='i'><li>
+          To serve  for the people who wants to be head in life from ,for creators,for creative people for risk factors,for who wish to be independent.</li>
+           <li> StartGrow is the paltform who helps the people who want to startup or who had startup either by providing Investor,Advertiser,or web creation.</li>
+           <li>
+           StartGrow is a platform where people can create thier own website according to thier services for free by choosing the templates or by creating alone.</li> 
+            <li>StartGrow motive is to support startup and grow together to serve for the best,</li>
+            
+            </ol></p>
         </div>
-        <div className='col-12 col-md-6'>
-          <img src={objective} style={{width:"45vw"}}></img>
+        <div className='col-12 col-md-6' style={{margin:"auto"}}>
+        <img src={objective} style={{width:"45vw"}}></img>
         </div>
       </div>
 
@@ -80,8 +85,6 @@ const Home = () => {
           <br></br>
         </div>
       </div>
-
-
     </>
 
   )

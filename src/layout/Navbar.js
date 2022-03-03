@@ -105,13 +105,13 @@ const NavBar = () => {
               <MenuItem style={{
                 backgroundColor: "grey"
               }} onClick={handleCloseNavMenu}>
-                <Typography textAlign="center"> <Link className='text-white-nav' to="/Business">About Us</Link></Typography>
+                <Typography textAlign="center"> <Link className='text-white-nav' to="/About">About Us</Link></Typography>
               </MenuItem>
 
               <MenuItem style={{
                 backgroundColor: "grey"
               }} onClick={handleCloseNavMenu}>
-                <Typography textAlign="center"> <Link className='text-white-nav' to="/Business">Contact Us</Link></Typography>
+                <Typography textAlign="center"> <Link className='text-white-nav' to="/Contact">Contact Us</Link></Typography>
               </MenuItem>
 
             </Menu>
@@ -135,7 +135,9 @@ const NavBar = () => {
           </Box>
 
           <div className='sign'>
-            <Button style={{color:"black",fontWeight:"bold",fontSize:"x-large",fontFamily:"Lucida Sans"}} >Sign In</Button>
+            <Link to='/auth'>
+            <Button style={{color:"black",fontWeight:"bold",fontSize:"x-large",fontFamily:"Lucida Sans",textDecoration:"none"}} >Sign In</Button>
+            </Link>
           </div>
 
           <Box sx={{ flexGrow: 0 }}>

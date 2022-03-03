@@ -17,6 +17,8 @@ import { paperClasses } from '@mui/material';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import NavTop from './components/NavTop';
+import Authen from './pages/Authen';
+
 
 
 function App() {
@@ -34,6 +36,7 @@ function App() {
           <Route exact path="/Business" component={Business} />
           <Route exact path="/About" component={About} />
           <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/auth" component={Authen} />
           <Route component={NotFound} />   
         </Switch>
         <Foter/>

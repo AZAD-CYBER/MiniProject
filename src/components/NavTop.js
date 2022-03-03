@@ -44,7 +44,7 @@ function NavTop() {
                                 <div className="top-bar-text">
                                     <h3>Email Us</h3>
 
-                                    <p className="m"> <a className="c" to="mailto:19c018@aiktc.ac.in">19co18.aiktc.ac.in</a></p>
+                                    <p className="m"> <a className="c" href="mailto:startGrow@gmail.com">startGrow@gmail.com</a></p>
 
                                 </div>
                             </div>

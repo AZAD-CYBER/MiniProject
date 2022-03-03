@@ -5,7 +5,10 @@ import Harish from "../assest/coder3.jpeg"
 import zahra  from "../assest/zahra.jpeg"
 import pooja  from "../assest/pooja.jpeg"
 import Zoom from 'react-reveal/Zoom';
-import imgbg  from "../assest/about.jpeg"
+import imgbg  from "../assest/startup.jpg"
+
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
 
 function About() {
   return (
@@ -30,7 +33,7 @@ function About() {
           </div>
           <div className=' col-12  col-md-6 pimg'> 
           
-          <img src={imgbg} className="imgbg"></img>
+          <img src={imgbg} className="imgbg" />
 
           </div>
          
@@ -116,6 +119,11 @@ function About() {
             </div>
         </div>
     </div>
+
+    <Popup trigger={<button> Trigger</button>} position="center">
+    <div>Popup content here !!</div>
+  </Popup>
+    
     </>
   )
 }
