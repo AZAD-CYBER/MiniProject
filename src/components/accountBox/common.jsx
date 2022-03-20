@@ -5,7 +5,7 @@ export const BoxContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 10px;S
  
 `;
 
@@ -14,7 +14,7 @@ export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
   box-shadow: 0px 0px 2.5px rgba(15, 15, 15, 0.19);
-  color: rgba(0,0,0, 1);
+  S
 `;
 
 export const MutedLink = styled.a`

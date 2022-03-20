@@ -26,9 +26,18 @@ function About() {
 
             <p>
 
-              I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
-
-              This is a great space to write a long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+            <b>OUR Team</b>
+            <ul>
+                <li>We are a group of Engineer student implementing this as a Mini  Project and also  a project which a new feture and also implementing same flow in the existing  market system</li>
+                <li>Our team detail is given below you can read out </li>
+                <li>Hod  some quries you can reach it us by given contact detail</li>
+            </ul>
+            <b>The Project (StartGrow)</b>
+            <ul>
+                <li>The Main matter of this project is to provide  a better system  for the betterment of this society </li>
+                <li>This Project is a combined platform which provide various feature like(Website builder,Promotion,Investment) which all are releted to startup business  </li>
+                <li>This project is basically for the people who are thinking to do startup or who already had ore so by using system  startup business will definetly get a bost and become succesfull</li>
+            </ul>
             </p>
           </div>
           <div className=' col-12  col-md-6 pimg'> 

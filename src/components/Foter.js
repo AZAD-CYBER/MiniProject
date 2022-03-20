@@ -56,7 +56,7 @@ function Foter() {
                         </tr>
                     </table>
                 </div>
-                <div className='col-12 col-md-2' style={{ marginLeft: "70px" }}>
+                <div className='col-12 col-md-2 fl' >
                     <table>
                         <tr align="left">
                             <th style={{ paddingBottom: "10px", borderBottom: "2px solid green" }}>CONTACT US</th>
@@ -69,7 +69,7 @@ function Foter() {
                         </tr>
                     </table>
                 </div>
-                <div className='col-12 col-md-2' style={{ marginLeft: "70px" }} >
+                <div className='col-12 col-md-2  fl'  >
                     <table>
                         <tr align="left">
                             <th style={{ paddingBottom: "10px", borderBottom: "2px solid green" }}>ABOUT US </th>

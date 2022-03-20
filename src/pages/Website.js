@@ -1,7 +1,12 @@
-import React from 'react';
+import React from "react";
 
-const Website = () => {
-  return <div> Website</div>;
-};
+function Website() {
+  return (
+    <>
+      <div>Website</div>
+      <div>ok</div>
+    </>
+  );
+}
 
 export default Website;

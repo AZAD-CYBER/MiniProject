@@ -16,7 +16,16 @@
     border-bottom: 2px solid green;
 }
 
+.fl{
+margin-left: 70px;
+}
 
 .ml{
     margin-left: -150px;
 }
+
+@media only screen and (max-width: 800px) {
+    .fl{
+        margin-left: 0px;
+        }
+  }
