@@ -65,3 +65,7 @@
   width: 80%;
   font-size: large;
 }
+.vl {
+  border-left: 6px solid green;
+  height: 300px;
+}

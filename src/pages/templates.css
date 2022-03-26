@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+
+  /* grid-template-rows: auto auto auto; */
+}
+.btn1 {
+  border: 1px solid red;
+}
+.btn1:hover {
+  background-color: red;
+}
