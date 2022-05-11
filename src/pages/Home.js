@@ -3,26 +3,57 @@ import Getstart from "../components/Getstart";
 import Flip from "react-reveal/Flip";
 import Fade from "react-reveal/Fade";
 import "./Home.css";
-import { Link } from "@mui/material";
 import promote from "../assest/promote.jpg";
 import objective from "../assest/objective.jpg";
 import Template from "../components/Template";
-
+import adsense from "../assest/adsense.jpg";
+import { Button } from "@mui/material";
+import { Link } from "react-router-dom";
+import "./create.css";
 const Home = () => {
   return (
     <>
-      <div className="container-fuild sf">
+      <div className="container-fuild sf1">
         <Flip bottom>
-          <Getstart
-            title="Grow your startup to unlimited heights"
-            content="Discover the platform that gives you the freedom to create, design, manage and develop your web presence exactly the way you want."
-          />
+          <div style={{ marginTop: "50px", marginRight: "150px" }}>
+            <p>
+              <h1 class="title">Grow your startup to unlimited heights</h1>
+              <br></br>
+              <br></br>
+
+              <h2 class="des">
+                Discover the platform that gives you the freedom to create,
+                design, manage and develop your web presence exactly the way you
+                want.
+              </h2>
+            </p>
+            <Link style={{ textDecoration: "none" }} to="/create">
+              {/* <Button
+                style={{
+                  backgroundColor: "#4666FF",
+                  color: "white",
+                  width: "200px",
+                  height: "60px",
+                  borderRadius: "10px",
+                  marginLeft: "-70px",
+                  marginTop: "100px",
+                  marginBottom: "80px",
+                }}
+              > */}
+              <br></br>
+              <div class="wrap">
+                <button class="button1">Get Started</button>
+              </div>
+              {/* </Button>{" "} */}
+              <br></br>
+            </Link>
+          </div>
         </Flip>
       </div>
 
-      <div className="row objective ">
+      <div className="row objective1 ">
         <div className="col-12 col-md-6  ">
-          <p className="obje">
+          <p className="obje1">
             <ol type="i">
               <li>
                 To serve for the people who wants to be head in life from ,for
@@ -52,19 +83,19 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="main row align-items-center container-fluid">
+      <div className="main1 row align-items-center container-fluid">
         <div className="col-sm-12 col-md-6  ">
-          <p className="left1">The Freedom to Create the Websites You Want </p>
+          <p className="left11">The Freedom to Create the Websites You Want </p>
         </div>
         <div className=" col-sm-12 col-md-6">
-          <p className="right">
+          <p className="right1">
             Design and build your own high-quality websites. Whether you’re
             promoting your business, showcasing your work, opening your store or
             starting a blog—you can do it all with the website builder.
           </p>
         </div>
       </div>
-      <div className="temp container-fuild">
+      <div className="temp1 container-fuild">
         <Fade bottom>
           <Template
             title="Professionally Designed Website Templates"
@@ -73,9 +104,9 @@ const Home = () => {
         </Fade>
       </div>
 
-      <div className="row align-items-center ads container-fluid ">
+      <div className="row align-items-center ads1 container-fluid ">
         <div className="col-12 col-md-4">
-          <p className="leftads">
+          <p className="leftads1">
             Freedom to find and hires Advertiser for promotions
           </p>
           <center>
@@ -96,7 +127,7 @@ const Home = () => {
           />
         </div>
         <div className="col-12 col-md-4">
-          <p className="rightads1">
+          <p className="rightads11">
             Promote your business and even eran also! Hire Advertiser and which
             with do promotions for you owner and Promote both can earn
           </p>
@@ -105,12 +136,12 @@ const Home = () => {
 
       <div className="main1 row align-items-center container-fluid ">
         <div className="col-sm-12 col-md-6  ">
-          <p className="left">
+          <p className="left1">
             Welcome to become a Investor Invest in Startup's and grow together
           </p>
         </div>
         <div className=" col-sm-12 col-md-6">
-          <p className="right">
+          <p className="right1">
             Be a Investor in startup.&nbsp; Find company according to your{" "}
             <br></br> relevance.&nbsp; Invest your money and let your investment
             be a trustworthy for startup.&nbsp; <br></br>

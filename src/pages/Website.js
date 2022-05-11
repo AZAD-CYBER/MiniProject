@@ -2,7 +2,7 @@ import React from "react";
 import Getstart from "../components/Getstart";
 import Flip from "react-reveal/Flip";
 import web from "../assest/web_build_intro.jpg";
-import { Link } from "@mui/material";
+import { Link } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import manage_p from "../assest/manage_product.png";
 import bk from "../assest/dropdown.jpeg";
@@ -50,8 +50,8 @@ function Website() {
             <center>
               {" "}
               <button
-                className="btn btn-dark rounded-circle btn-lg"
-                style={{ padding: "15px" }}
+                className="btn btn-dark  btn-lg"
+                style={{ padding: "10px" }}
               >
                 <Link to="#" style={{ textDecoration: "none" }}>
                   <h6 style={{ color: "white" }}>Start Now</h6>
@@ -85,8 +85,8 @@ function Website() {
             <center>
               {" "}
               <button
-                className="btn btn-dark rounded-circle"
-                style={{ padding: "15px" }}
+                className="btn btn-dark btn-lg "
+                style={{ padding: "10px" }}
               >
                 <Link to="#" style={{ textDecoration: "none" }}>
                   <h6 style={{ color: "white" }}>Start Now</h6>

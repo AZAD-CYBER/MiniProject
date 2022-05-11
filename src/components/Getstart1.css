@@ -1,19 +1,20 @@
-.Conatiner {
+.Conatiner1 {
   margin-left: 0;
   width: 58vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 0px;
+  padding-top: 100px;
 }
 
-.title {
+.title1 {
   font-weight: 700;
   font-size: 5vw;
   margin-top: 180px;
+  margin-left: 120px;
 }
 
-.content {
+.content1 {
   font-size: 26px;
   font-weight: 700;
   /* width: 25vw; */

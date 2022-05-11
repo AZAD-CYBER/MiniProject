@@ -1,9 +1,9 @@
 import React from "react";
 import TempBox1 from "./TempBox1";
 import "./Temp.css";
-import online from "../assest/online.jpg";
-import education from "../assest/eduction.jpg";
-import business from "../assest/business.jpg";
+import one from "../assest/1.jpeg";
+import two from "../assest/2.jpeg";
+import three from "../assest/3.jpeg";
 
 const Temp1 = (props) => {
   return (
@@ -16,7 +16,7 @@ const Temp1 = (props) => {
         <div class="row justify-content-evenly tempboxm ">
           <div className=" tempbox col-12 col-xl-4">
             <TempBox1
-              img={online}
+              img={one}
               name="Earn money from your site"
               text="Millions of advertisers compete for your ad space. That means more money, more relevant ads, and more ad spaces filled"
             />
@@ -24,7 +24,7 @@ const Temp1 = (props) => {
 
           <div className=" tempbox col-12 col-xl-4">
             <TempBox1
-              img={business}
+              img={two}
               name="Ads optimized for mobile"
               text="Adsense can optimize the size of your ad units to automatically fit desktop or mobile, meaning there's more chance they'll be seen and clicked."
             />
@@ -32,7 +32,7 @@ const Temp1 = (props) => {
 
           <div className=" tempbox col-12 col-xl-4">
             <TempBox1
-              img={education}
+              img={three}
               name="Save time"
               text="Add one piece of code to your site and Adsense will automatically show ads tailored to your site's layout, saving you time making changes to ad code."
             />

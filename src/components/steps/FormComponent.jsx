@@ -45,6 +45,8 @@ class FormComponent extends Component {
                 : (errors[target.name] = "");
             data[target.name] = target.value;
             this.setState({ data, errors });
+         
+           
 
         };
 

@@ -1,28 +1,45 @@
 import { Button } from "@mui/material";
 import React from "react";
-import { Link } from "@mui/material";
+import { Link } from "react-router-dom";
+
 import "./Getstart.css";
 const Getstart = ({ title, content }) => {
   return (
     <div className="row container-fluid">
-      <div className="Conatiner  col-12 col-md-6">
-        <h1 className="title">{title}</h1>
-        <h3 className="content">{content}</h3>
+      <div className="conatiner1  col-12 col-md-6">
+        <h1 className="title1">{title}</h1>
+        <h3 className="content1">{content}</h3>
 
-        <a href="/create">
-          <Button
+        <Link style={{ textDecoration: "none" }} to="/create">
+          {/* <Button
             style={{
               backgroundColor: "black",
               color: "white",
               width: "210px",
               height: "70px",
               borderRadius: "20px",
-              marginTop: "100px",
+              marginTop: "180px",
+              marginLeft: "350px",
             }}
-          >
-            <b style={{ fontSize: "20px" }}>Get Started</b>
-          </Button>
-        </a>
+          > */}
+          <div class="wrap">
+            <button
+              style={{
+                backgroundColor: "black",
+                color: "black",
+                width: "210px",
+                height: "70px",
+                borderRadius: "20px",
+                marginTop: "180px",
+                marginLeft: "350px",
+              }}
+              class="button1"
+            >
+              Get Started
+            </button>
+          </div>
+          {/* </Button> */}
+        </Link>
       </div>
     </div>
   );

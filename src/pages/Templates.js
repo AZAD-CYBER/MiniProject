@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./templates.css";
 import Temp from "./temp";
+import { Link } from "react-router-dom";
 
 function Templates() {
   const [item, setItem] = useState(Temp);
@@ -66,11 +67,18 @@ function Templates() {
                 >
                   <center>
                     {" "}
-                    <img src={image} width={150} height={160} />
+                    <a href={id}>
+                      <img
+                        className="img_t"
+                        src={image}
+                        width={322}
+                        height={220}
+                      />
+                    </a>
                   </center>
-                  {id}
+
                   <br></br>
-                  {category}
+                  <h2> {category}</h2>
                 </div>
               </div>
             );

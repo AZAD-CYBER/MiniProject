@@ -1,11 +1,12 @@
 import React from "react";
 import "./Carosel.css";
+import { Link } from "react-router-dom";
 import online from "../assest/online.jpg";
 import blog from "../assest/Blog-website.png";
 import education from "../assest/eduction.jpg";
 import protfolio from "../assest/portfolio.jpg";
 import business from "../assest/business.jpg";
-import { Link } from "@mui/material";
+
 import {
   CarouselProvider,
   Slider,
@@ -50,20 +51,20 @@ export default class extends React.Component {
         </Slider>
         <center>
           {" "}
-          <button className="btn btn-primary btn-lg">
-            <a href="/templates" style={{ textDecoration: "none" }}>
-              <h6 style={{ color: "white" }}>Browse All templates</h6>
-            </a>
-          </button>
+          <Link to="/templates" style={{ textDecoration: "none" }}>
+            <div class="wrap">
+              <button class="button1">Browse All templates</button>
+            </div>
+          </Link>
         </center>
         <div style={{ marginLeft: "60vw" }}>
           <ButtonBack
             style={{
-              borderRadius: "40%",
+              borderRadius: "50%",
               // background: "blue",
               borderStyle: "none",
               Color: "black",
-              fontSize: "30px",
+              fontSize: "20px",
             }}
           >
             &lt;
@@ -71,11 +72,11 @@ export default class extends React.Component {
           &nbsp; &nbsp;
           <ButtonNext
             style={{
-              borderRadius: "40%",
+              borderRadius: "50%",
               // background: "blue",
               borderStyle: "none",
               Color: "black",
-              fontSize: "30px",
+              fontSize: "20px",
             }}
           >
             &gt;
